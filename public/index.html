@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Evidence-first missing-context analysis for JavaScript and TypeScript repositories.">
+  <title>ContextPatch — Evidence-first code context</title><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <div class="shell">
+
+  <header class="topbar">
+    <a class="brand" href="#top">
+      <span class="brand-mark">CP</span>
+      <span>ContextPatch<small>OPEN-SOURCE DEVELOPER TOOL</small></span>
+    </a>
+    <a class="github-link" href="https://github.com/AyushKumar-Gupta" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+  </header>
+
+  <div class="maintainer">
+    <span class="maintainer-label">PROJECT MAINTAINER</span>
+    <strong>Ayush Kumar Gupta</strong>
+    <a href="https://github.com/AyushKumar-Gupta" target="_blank" rel="noopener noreferrer">@AyushKumar-Gupta ↗</a>
+  </div>
+   <main id="top">
+ <section class="hero"><div class="eyebrow"><span class="pulse"></span> EVIDENCE-FIRST CODE ANALYSIS</div><h1>Find the context<br><span>your code is missing.</span></h1><p class="hero-copy">Analyze a local JavaScript or TypeScript repository for unresolved relative imports and syntax issues. Get grounded next steps, without letting AI change your files.</p>
+        <div class="principles"><span>✓ Local-first scanning</span><span>✓ Human-reviewed suggestions</span><span>✓ No automatic edits</span></div>
+      </section>
+      <section class="panel scan-panel"><div class="panel-heading"><div><span class="step">01 / SCAN</span><h2>Analyze a repository</h2></div><span class="local-pill">LOCAL PATH</span></div>
+        <label for="repoPath">Absolute path to your project folder</label><div class="path-row"><input id="repoPath" placeholder="C:\Users\You\Projects\my-app" autocomplete="off"><button id="analyzeBtn">Analyze repo <span>→</span></button></div>
+        <p class="hint">The path is processed by your local server. ContextPatch does not upload your source code to a hosted service. Optional Ollama explanations run on your configured local model.</p>
+        <div id="status" class="status" role="status" aria-live="polite">Ready when you are. Start with a JavaScript or TypeScript project.</div>
+      </section>
+      <section id="results" class="results hidden" aria-live="polite"></section>
+      <section class="how"><div class="eyebrow">THE PROMISE</div><h2>Helpful evidence. Honest uncertainty.</h2><div class="feature-grid"><article><span class="feature-icon">⌕</span><h3>Trace what exists</h3><p>Inspect source files and relative imports while skipping dependency and build folders.</p></article><article><span class="feature-icon">◎</span><h3>Show the evidence</h3><p>Every finding includes a file, line and the reason it was raised.</p></article><article><span class="feature-icon">↗</span><h3>Keep humans in control</h3><p>Review recommendations yourself. The MVP never edits your repository.</p></article></div></section>
+      <footer><span>ContextPatch · Open source by design</span><span>Early MVP · JavaScript / TypeScript</span></footer>
+    </main>
+  </div>
+  <script src="/app.js" defer></script>
+</body></html>
+
+
+
+

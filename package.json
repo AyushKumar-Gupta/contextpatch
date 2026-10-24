@@ -1,0 +1,20 @@
+{
+  "name": "contextpatch-ai",
+  "version": "0.1.0",
+  "description": "Evidence-based missing-context analysis for JavaScript and TypeScript repositories.",
+  "type": "module",
+  "private": false,
+  "engines": { "node": ">=18.17" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.26.0",
+    "@babel/traverse": "^7.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

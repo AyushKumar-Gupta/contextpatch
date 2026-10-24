@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{color-scheme:dark;--bg:#090c14;--panel:#111725;--panel2:#151e2e;--text:#edf3ff;--muted:#91a0b8;--line:#273349;--blue:#75a7ff;--cyan:#80e7e0;--danger:#ff9e9e;--green:#9ae7be}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -15%,#1c3152 0,transparent 45%),var(--bg);color:var(--text);font-family:Manrope,system-ui,sans-serif;min-height:100vh}.shell{max-width:1080px;margin:auto;padding:0 28px}.topbar{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12}.brand{display:flex;align-items:center;gap:12px;color:var(--text);text-decoration:none;font-weight:800;letter-spacing:-.5px}.brand-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,#83aaff,#7de4df);color:#07111e;font:700 13px 'DM Mono',monospace}.brand small{display:block;color:var(--muted);font:10px 'DM Mono',monospace;letter-spacing:1.4px;margin-top:4px}.github-link{color:#dce7ff;text-decoration:none;border:1px solid var(--line);border-radius:9px;padding:10px 14px;font-size:12px}.hero{padding:76px 0 40px;max-width:760px}.eyebrow,.step{font:11px 'DM Mono',monospace;letter-spacing:1.6px;color:var(--cyan)}.eyebrow{display:flex;align-items:center;gap:9px}.pulse{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 13px var(--cyan)}h1{font-size:clamp(42px,7vw,72px);line-height:1.06;letter-spacing:-4px;margin:22px 0 20px}h1 span{color:var(--blue)}.hero-copy{font-size:16px;line-height:1.8;color:#aab8ce;max-width:690px}.principles{display:flex;flex-wrap:wrap;gap:10px;margin-top:27px}.principles span,.local-pill{font:11px 'DM Mono',monospace;border:1px solid var(--line);border-radius:99px;padding:9px 12px;color:#c4d2e8}.panel{border:1px solid #33415a;background:linear-gradient(140deg,#141d2c,#0f1521);border-radius:18px;padding:27px;box-shadow:0 22px 60px #0003}.panel-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:27px}.panel h2,.how h2{margin:8px 0 0;font-size:24px;letter-spacing:-.8px}.local-pill{color:var(--cyan);border-color:#3b6c72}.scan-panel label{display:block;font-size:12px;color:#c3cee0;margin-bottom:9px}.path-row{display:flex;gap:10px}.path-row input{flex:1;min-width:0;background:#080d16;border:1px solid #33415a;border-radius:10px;color:var(--text);padding:15px 14px;font:12px 'DM Mono',monospace;outline:none}.path-row input:focus{border-color:var(--blue);box-shadow:0 0 0 3px #75a7ff20}.path-row button{border:0;border-radius:10px;background:linear-gradient(120deg,#8eb4ff,#7ee2dd);color:#07111c;font-weight:800;padding:0 18px;cursor:pointer;white-space:nowrap}.path-row button:disabled{opacity:.6;cursor:wait}.path-row button span{font-size:18px;margin-left:8px}.hint{font-size:11px;color:#8494ad;line-height:1.7;margin:12px 0}.status{border-top:1px solid #ffffff12;padding-top:15px;margin-top:18px;font-size:12px;color:var(--muted)}.status.error{color:var(--danger)}.status.success{color:var(--green)}.results{margin-top:24px}.hidden{display:none!important}.result-head{display:flex;justify-content:space-between;gap:15px;align-items:flex-start;margin-bottom:15px}.result-head h2{margin:5px 0;font-size:25px;overflow-wrap:anywhere}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}.metric,.finding,.model-box,.empty-box{border:1px solid var(--line);background:#101725;border-radius:12px;padding:17px}.metric strong{display:block;font-size:25px}.metric span{font:10px 'DM Mono',monospace;color:var(--muted);text-transform:uppercase;letter-spacing:1px}.finding{margin:10px 0}.finding-top{display:flex;justify-content:space-between;gap:10px;align-items:center}.finding h3{font-size:14px;margin:12px 0 8px}.finding p,.model-box p{font-size:12px;line-height:1.7;color:#aab8ce;overflow-wrap:anywhere}.tag{font:10px 'DM Mono',monospace;padding:5px 8px;border-radius:6px;background:#492d32;color:#ffb8b8}.tag.info{background:#26334a;color:#bbd0ff}.mono{font:11px 'DM Mono',monospace;color:var(--cyan);overflow-wrap:anywhere}.model-box{margin:12px 0;border-color:#315b64}.model-box h3{margin:0 0 8px;font-size:14px}.subhead{font:11px 'DM Mono',monospace;letter-spacing:1.2px;color:var(--muted);margin:24px 0 10px}.how{padding:70px 0 65px}.how h2{font-size:30px;margin:12px 0 26px}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.feature-grid article{border:1px solid var(--line);background:#0e1420;border-radius:13px;padding:19px}.feature-icon{font-size:23px;color:var(--cyan)}.feature-grid h3{font-size:14px;margin:15px 0 8px}.feature-grid p{font-size:12px;line-height:1.8;color:var(--muted);margin:0}footer{border-top:1px solid #ffffff14;padding:22px 0 28px;display:flex;justify-content:space-between;gap:12px;color:#71819a;font:10px 'DM Mono',monospace}@media(max-width:680px){.shell{padding:0 16px}.topbar{height:72px}.hero{padding-top:53px}h1{letter-spacing:-2.5px}.hero-copy{font-size:14px}.panel{padding:18px}.path-row{flex-direction:column}.path-row button{padding:14px}.metrics{grid-template-columns:repeat(2,1fr)}.feature-grid{grid-template-columns:1fr}.how{padding:48px 0}.result-head{flex-direction:column}footer{flex-direction:column}}
+
+
+
+
+
+/* Project maintainer profile */
+.maintainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  padding: 16px 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #273349;
+}
+
+.maintainer-label {
+  font: 10px 'DM Mono', monospace;
+  letter-spacing: 1.5px;
+  color: #80e7e0;
+}
+
+.maintainer strong {
+  color: #edf3ff;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.maintainer a {
+  color: #80e7e0;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.maintainer a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* ContextPatch — futuristic background upgrade */
+
+:root {
+  --bg: #070b14;
+  --panel: rgba(15, 24, 42, 0.82);
+  --panel2: #151e2e;
+  --text: #edf3ff;
+  --muted: #91a0b8;
+  --line: #293953;
+  --blue: #75a7ff;
+  --cyan: #80e7e0;
+  --danger: #ff9e9e;
+  --green: #9ae7be;
+}
+
+body {
+  background:
+    radial-gradient(
+      ellipse at 12% 12%,
+      rgba(41, 91, 177, 0.23),
+      transparent 38%
+    ),
+    radial-gradient(
+      ellipse at 88% 30%,
+      rgba(30, 177, 183, 0.13),
+      transparent 34%
+    ),
+    radial-gradient(
+      ellipse at 50% 100%,
+      rgba(62, 76, 160, 0.12),
+      transparent 45%
+    ),
+    #070b14;
+  background-attachment: fixed;
+}
+
+/* Subtle developer-grid texture */
+.shell {
+  position: relative;
+  isolation: isolate;
+}
+
+.shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(130, 170, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(130, 170, 255, 0.035) 1px, transparent 1px);
+  background-size: 36px 36px;
+  mask-image: linear-gradient(to bottom, black, transparent 90%);
+}
+
+/* Glass-style analysis panel */
+.scan-panel {
+  background: rgba(15, 24, 42, 0.76);
+  backdrop-filter: blur(16px);
+  border-color: rgba(117, 167, 255, 0.28);
+  box-shadow:
+    0 24px 80px rgba(0, 0, 0, 0.3),
+    0 0 35px rgba(66, 124, 255, 0.06);
+}
+
+/* Refined dashboard cards */
+.metric,
+.finding,
+.model-box,
+.empty-box,
+.feature-grid article {
+  background: rgba(16, 23, 37, 0.82);
+  border-color: rgba(117, 167, 255, 0.17);
+  transition: border-color 180ms ease, transform 180ms ease;
+}
+
+.metric:hover,
+.feature-grid article:hover {
+  border-color: rgba(128, 231, 224, 0.48);
+  transform: translateY(-3px);
+}
+
+.maintainer {
+  background: linear-gradient(
+    110deg,
+    rgba(18, 29, 49, 0.65),
+    rgba(12, 19, 32, 0.35)
+  );
+  border-bottom-color: rgba(128, 231, 224, 0.22);
+  padding: 18px;
+  border-radius: 0 0 12px 12px;
+}
+
+.path-row input {
+  background: rgba(5, 10, 20, 0.85);
+}
+
+.path-row button {
+  box-shadow: 0 0 22px rgba(128, 231, 224, 0.12);
+}
+
+.path-row button:hover {
+  filter: brightness(1.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .metric,
+  .feature-grid article {
+    transition: none;
+  }
+}
+
+
+/* ContextPatch — stronger visible background grid */
+.shell::before {
+  background-image:
+    linear-gradient(
+      rgba(130, 170, 255, 0.065) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(130, 170, 255, 0.065) 1px,
+      transparent 1px
+    );
+  background-size: 32px 32px;
+  mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    rgba(0, 0, 0, 0.6) 55%,
+    transparent 100%
+  );
+}
+
+.scan-panel {
+  border-color: rgba(117, 167, 255, 0.4);
+}
